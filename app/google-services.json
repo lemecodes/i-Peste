@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133542523220",
+    "project_id": "ipeste",
+    "storage_bucket": "ipeste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133542523220:android:8c816339e5c816b4e158c1",
+        "android_client_info": {
+          "package_name": "com.example.i_peste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjHE291dYx6y6k5O5cNTA_xHkp0gK6lFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133542523220:android:c0baa5c7b96fa588e158c1",
+        "android_client_info": {
+          "package_name": "com.example.ipeste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjHE291dYx6y6k5O5cNTA_xHkp0gK6lFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

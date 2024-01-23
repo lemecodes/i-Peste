@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".EditActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextPilipinoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pilipino Name"/>
+
+        <EditText
+            android:id="@+id/editTextDisease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPilipinoName"
+            android:layout_marginTop="16dp"
+            android:hint="Disease"/>
+
+        <EditText
+            android:id="@+id/editTextWhatItDoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextDisease"
+            android:layout_marginTop="16dp"
+            android:hint="What It Does"/>
+
+        <EditText
+            android:id="@+id/editTextHowToManage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextWhatItDoes"
+            android:layout_marginTop="16dp"
+            android:hint="How To Manage"/>
+
+        <EditText
+            android:id="@+id/editTextYoutubeLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextHowToManage"
+            android:layout_marginTop="16dp"
+            android:hint="YouTube Link"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextYoutubeLink"
+            android:layout_marginTop="16dp"
+            android:text="Save"/>
+    </RelativeLayout>
+</ScrollView>
